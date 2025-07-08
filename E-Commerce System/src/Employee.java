@@ -51,7 +51,7 @@ public class Employee extends Person{
             if (choice.equalsIgnoreCase("y")){
                 double price = -1;
                 while (price < 0) {
-                    System.out.println("Please enter the new price");
+                    System.out.println("Please enter the price");
                     price = scanner.nextDouble();
                     if(price < 0){
                         System.err.println("Incorrect price value");

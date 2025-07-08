@@ -76,6 +76,10 @@ public class Main {
                                     cust.getMy_cart().addToCart(product_name, quantity);
                             }
                         }
+                        else {
+                            System.err.println("Product not found");
+                            continue;
+                        }
                         System.out.println("Do you want to continue");
                         System.out.println("Enter Y or N to continue");
                         choice = scanner.next();
